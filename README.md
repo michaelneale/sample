@@ -40,6 +40,6 @@ add this to ~/.pi/agent/models.json:
 and then run 
 
 ```
-pi --model 'glm-4.7-flash' -p "remove the insert_image feature please"
+pi --model 'glm-4.7-flash:latest' -p "remove the insert_image feature please"
 
 ```
