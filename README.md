@@ -4,7 +4,7 @@ use prompt `remove the insert_image feature please`
 test with goose (ollama running and `ollama pull glm-4.7-flash`): 
 
 ```
-GOOSE_PROVIDER=ollama GOOSE_MODEL=glm-4.7-flash:latest ~/Development/goose/target/release/goose run -t "remove the insert_image feature please"
+GOOSE_PROVIDER=ollama GOOSE_MODEL=glm-4.7-flash:latest ~/Development/goose/target/release/goose
 ```
 
 test with pi: 
@@ -40,6 +40,6 @@ add this to ~/.pi/agent/models.json:
 and then run 
 
 ```
-pi --model 'glm-4.7-flash:latest' -p "remove the insert_image feature please"
+pi --model 'glm-4.7-flash:latest'
 
 ```
